@@ -1,14 +1,15 @@
 import {
   bookStorage, title, author, div, p, btn,
 } from './declaration.js';
+import Storage from './localStorage.js';
 
 export default class Library {
-  static displayLibrary() {
+  static displayLibrary = () => {
     const library = Storage.takingFromStorage();
     library.forEach((book) => Library.createBook(book));
   }
 
-  static createBook(book) {
+  static createBook = (book) => {
     const bookContainer = div.cloneNode(true);
     const bookText = p.cloneNode(true);
     const bookButton = btn.cloneNode(true);
@@ -22,13 +23,13 @@ export default class Library {
     bookButton.classList.add('remove-btn');
   }
 
-  static removeBook(element) {
+  static removeBook = (element) => {
     if (element.classList.contains('remove-btn')) {
       element.parentNode.remove();
     }
   }
 
-  static clearInputs() {
+  static clearInputs = () => {
     title.value = '';
     author.value = '';
   }

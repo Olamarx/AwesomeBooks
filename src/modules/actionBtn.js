@@ -12,6 +12,7 @@ static addbtn = () => {
     const book = new Book(title.value, author.value);
     Library.createBook(book);
     Storage.setLocalStorage(book);
+    // Storage.takingFromStorage()
     Library.clearInputs();
   });
 }

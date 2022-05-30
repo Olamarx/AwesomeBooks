@@ -12,5 +12,6 @@ const navLinks = document.querySelector('.nav__links');
 const list = document.querySelector('.book-list');
 const add = document.querySelector('.add-book');
 const contact = document.querySelector('.contact');
-export { bookStorage, form, title, author, addButton, div, p, btn, navLinks, list, add, contact 
+export {
+  bookStorage, form, title, author, addButton, div, p, btn, navLinks, list, add, contact,
 };

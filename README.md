@@ -1,31 +1,45 @@
-# curriculum-databases-projects-template
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+# Awesome Books
+
+In this project we are creating a live and interactive library, with updating books, user can add or remove books.
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+
+## Live Demo
+
+[Live Demo Link](https://olamarx.github.io/Refactor-AwesomeBooks/)
 
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+To run a local copy of this project follow these simple steps.
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+### Prerequisites
+
+- Any web browser (e.g. Google Chrome)
+- Any Code Editor (e.g. Vscode)
+
+### Cloning the repository
+
+- Create a new folder.
+- Open your console in the new folder and run this command: `https://github.com/Olamarx/Refactor-AwesomeBooks.git`.
+- Open index.html file with your code editor, and run it with a live server extension.
+- You're done!
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Owoeye Olaoluwa (Olamarx)**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Olamarx)
+- Twitter: [@twitterhandle](https://twitter.com/Owoeye0laoluwa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olaoluwa-owoeye-617702162/)
+- Facebook: [Facebook](https://web.facebook.com/olaoluwa.owoeye.39)
 
 ## 🤝 Contributing
 
@@ -37,11 +51,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

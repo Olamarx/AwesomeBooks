@@ -12,7 +12,7 @@ In this project we are creating a live and interactive library, with updating bo
 
 ## Live Demo
 
-[Live Demo Link](https://olamarx.github.io/Refactor-AwesomeBooks/)
+[Live Demo Link](https://olamarx.github.io/AwesomeBooks/dist)
 
 
 ## Getting Started
